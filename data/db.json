@@ -1,0 +1,156 @@
+{
+  "usuarios": [
+    {
+      "nombre": "juan",
+      "apellido": "perez",
+      "cedula": "1085307076",
+      "correo": "juan@email.com",
+      "telefono": "3162824888",
+      "apartamento": {
+        "bloque": "01",
+        "numero": "101",
+        "estado_a": "habitado"
+      },
+      "tipo": "propietario",
+      "rol": "admin",
+      "estado_u": "al dia",
+      "id": 1
+    },
+    {
+      "nombre": "maria",
+      "apellido": "gonzales",
+      "cedula": "59817344",
+      "correo": "maria@email.com",
+      "telefono": "3175002151",
+      "apartamento": {
+        "bloque": "01",
+        "numero": "102",
+        "estado_a": "habitado"
+      },
+      "tipo": "propietario",
+      "rol": "invitado",
+      "estado_u": "al dia",
+      "id": 2
+    }
+  ],
+  "vehiculos": [
+    {
+      "placa": "aaa111",
+      "marca": "chevrolet",
+      "linea": "spark",
+      "modelo": "2015",
+      "clase": "carro",
+      "usuario": {
+        "nombre": "juan",
+        "apellido": "perez",
+        "telefono":"3162824888",
+        "apartamento": {
+          "bloque": "01",
+          "numero": "101"
+        },
+        "estado_v": "adentro"
+      },
+      "id": 1
+    },
+    {
+      "placa": "aaa222",
+      "marca": "suzuki",
+      "linea": "ax4",
+      "modelo": "2014",
+      "clase": "motocicleta",
+      "usuario": {
+        "nombre": "maria",
+        "apellido": "gonzales",
+        "telefono":"3175002151",
+        "apartamento": {
+          "bloque": "01",
+          "numero": "102"
+        },
+        "estado_v": "afuera"
+      },
+      "id": 2
+    }
+  ],
+  "apartamentos": [
+    {
+      "bloque": "01",
+      "numero": "101",
+      "estado_a": "habitado",
+      "id": 1
+    },
+    {
+      "bloque": "01",
+      "numero": "102",
+      "estado_a": "habitado",
+      "id": 2
+    }
+  ],
+  "tipos": [
+    {
+      "nombre": "propietario",
+      "id": 1
+    },
+    {
+      "nombre": "arrendatario",
+      "id": 2
+    }
+  ],
+  "roles": [
+    {
+      "nombre": "admin",
+      "id": 1
+    },
+    {
+      "nombre": "invitado",
+      "id": 2
+    }
+  ],
+  "conjuntos": [
+    {
+      "nombre": "ciudadela invipaz",
+      "total": 10,
+      "disponible": 7,
+      "id": 1
+    }
+  ],
+  "estados_v": [
+    {
+      "nombre": "adentro",
+      "id": 1
+    },
+    {
+      "nombre": "afuera",
+      "id": 2
+    }
+  ],
+  "estados_u": [
+    {
+      "nombre": "al dia",
+      "id": 1
+    },
+    {
+      "nombre": "deudor",
+      "id": 2
+    }
+  ],
+  "estados_a": [
+    {
+      "nombre": "habitado",
+      "id": 1
+    },
+    {
+      "nombre": "vacio",
+      "id": 2
+    }
+  ],
+  "clases": [
+    {
+      "name": "motocicleta",
+      "id": 1
+    },
+    {
+      "name": "carro",
+      "id": 2
+    }
+  ]
+}
